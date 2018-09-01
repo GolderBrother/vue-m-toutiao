@@ -17,4 +17,3 @@ export const hideCircleLoading = () => {
     // 使用父节点来销毁自己
     initComponent.$el.parentNode.removeChild(initComponent.$el)
 }
-

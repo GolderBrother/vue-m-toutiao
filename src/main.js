@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router/permission'
 import store from './store'
+import customizedComponent from './customized-component'
 
 // 工具类
 import '@/utils/rem.js'
@@ -26,9 +27,9 @@ Vue.use(VueAwesomeSwiper)
 import { Cookie } from './utils/storage'
 Vue.prototype.Cookie = Cookie
 
-// 全局引入自定义组件
-import customComponent from '@utils/customComponent'
-Vue.use(customComponent)
+// 全局引入并使用自定义组件
+import customizedComponent from '@/utils/customizedComponent'
+Vue.use(customizedComponent)
 
 // 返回前一页 
 Vue.prototype.back = router => {

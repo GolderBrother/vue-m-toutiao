@@ -17,7 +17,6 @@
 <script>
 import { mapGetters } from "vuex";
 import { swiper, swiperSlide } from "vue-awesome-swiper";
-import TopBarBox from "@/components/TopBarBox";
 export default {
   data() {
     return {
