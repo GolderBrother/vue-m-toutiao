@@ -10,8 +10,8 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev or npm start
-
-npm run dll (打包一次变不在需要打包了)
+# (打包一次变不在需要打包了)
+npm run dll 
 
 # build for production with minification
 npm run build
